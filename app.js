@@ -86,6 +86,6 @@ function sortearAmigo() {
     const amigoSecreto = amigos[indiceAleatorio];
 
     // Mostrar el resultado en la interfaz
-    const resultado = document.querySelector(".button-draw"); 
+    const resultado = document.querySelector("#resultado"); 
     resultado.innerHTML = `El amigo secreto es: <strong>${amigoSecreto}</strong>`;
 }
